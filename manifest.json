@@ -1,0 +1,16 @@
+{
+  "project": "PriceAnywhere",
+  "version": "2.0.0",
+  "files": [
+    ".env.example",
+    "DEPLOYMENT.md",
+    "PROJECT_STATUS.md",
+    "README.md",
+    "db/schema.sql",
+    "package.json",
+    "public/favicon.svg",
+    "public/index.html",
+    "public/robots.txt",
+    "src/server.js"
+  ]
+}

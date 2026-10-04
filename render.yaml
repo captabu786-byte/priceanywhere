@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: priceanywhere
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: DATABASE_URL
+        sync: false
+      - key: EBAY_CLIENT_ID
+        sync: false
+      - key: EBAY_CLIENT_SECRET
+        sync: false
+      - key: EBAY_MARKETPLACE_ID
+        value: EBAY_US
+      - key: EBAY_AFFILIATE_CAMPAIGN_ID
+        sync: false
